@@ -17,3 +17,9 @@ const TokenManager = {
 };
 
 module.exports = TokenManager;
+
+/**
+ ** Agar Access Token tidak mudah ditebak kita dapat
+ ** membuat random string menggunakan perintah pada node REPL berikut:
+ *? require('crypto').randomBytes(64).toString('hex');
+*/
